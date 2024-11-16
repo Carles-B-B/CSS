@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+
+}
+
+img {
+    transition: .5s;
+}
+#foto1:hover {
+    filter: blur(5px);
+
+}
+
+#foto2:hover{
+    filter: grayscale(80%);
+
+}
+
+#foto3:hover{
+    filter: sepia(60%);
+
+}
+
+#foto4:hover{
+    filter: saturate(180%);
+
+}
+
+#foto5:hover{
+    filter: opacity(.5);
+
+}
+
+#containerf6 #foto6:hover{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+
+}
+
+#containerf6{
+    overflow:hidden;
+}
+
+
+#foto6:hover{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+
+}
+
+#foto7:hover{
+
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#foto8:hover{
+
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+
+}
+
+#foto9:hover{
+
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg)
+}
+
+#foto10:hover{
+
+    transform: none;
+    -webkit-transform: perspective(500px) rotateY(180deg);
+    filter:hue-rotate(180deg);
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+
+
+}
+
+#foto11:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    filter:hue-rotate(180deg);
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    transform: rotatey(360deg);
+
+}
+
